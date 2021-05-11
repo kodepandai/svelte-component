@@ -1,0 +1,26 @@
+{
+    "name": "@svelte-component/input",
+    "version": "0.0.1-beta3",
+    "description": "Awesome Svelte Component",
+    "main": "dist/Input.js",
+    "types": "src/index.ts",
+    "svelte": "src/Input.svelte",
+    "scripts": {},
+    "keywords": [
+        "svelte-component",
+        "input"
+    ],
+    "author": {
+        "email": "axmad386@gmail.com",
+        "name": "Akhmad Salafudin",
+        "url": "https://github.com/axmad386"
+    },
+    "contributors": [],
+    "license": "ISC",
+    "dependencies": {
+        "quill": "^1.3.7",
+        "svelte-file-dropzone": "^0.0.15",
+        "svelte-select": "^3.17.0"
+    },
+    "devDependencies": {}
+}
