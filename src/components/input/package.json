@@ -1,6 +1,6 @@
 {
     "name": "@svelte-component/input",
-    "version": "1.0.0-beta2",
+    "version": "1.0.0-beta3",
     "description": "Awesome Svelte Input Component",
     "svelte": "src/Input.svelte",
     "types": "src/index.ts",
@@ -22,5 +22,7 @@
         "svelte-select": "^3.17.0"
     },
     "devDependencies": {},
-    "readme": "README.md"
+    "homepage": "https://github.com/kodepintar/svelte-component",
+    "repository": "https://github.com/kodepintar/svelte-component",
+    "readme": "https://github.com/kodepintar/svelte-component/blob/main/src/components/input/README.md"
 }
