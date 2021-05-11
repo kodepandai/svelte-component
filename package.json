@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "@svelte-component/all",
+  "workspaces": [
+    "src/components/*"
+  ],
+  "version": "0.0.1",
+  "description": "Awesome Svelte Component",
+  "svelte": "src/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": {
+    "email": "axmad386@gmail.com",
+    "name": "Akhmad Salafudin",
+    "url": "https://github.com/axmad386"
+  },
+  "contributors": [],
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@tsconfig/svelte": "^1.0.10",
+    "rollup": "^2.47.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.38.2",
+    "svelte-preprocess": "^4.7.3",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  },
+  "license": "ISC"
+}
