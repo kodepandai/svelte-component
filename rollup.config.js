@@ -7,7 +7,8 @@ import css from 'rollup-plugin-css-only';
 export default [{
     input: 'src/components/input/index.ts',
     output: [
-        { dir: 'src/components/input/dist', 'format': 'es' },
+        { dir: 'src/components/input/dist/esm', 'format': 'es'},
+        { dir: 'src/components/input/dist/cjs', 'format': 'cjs'},
     ],
     plugins: [
         svelte({
